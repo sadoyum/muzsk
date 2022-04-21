@@ -20,7 +20,7 @@
     },
     "BOT_USARNAME": {
       "description": "Müzik Oynatıcı Bot Kullanıcı İsmi @ olmadan yazınız.",
-      "required": true,
+      "required": true
       "value": ""
     },
     "ASSISTANT_NAME": {
