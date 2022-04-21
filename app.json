@@ -1,5 +1,5 @@
 {
-  "name": "Efsane Music",
+  "name": "Telegram Music",
   "description": "Telegram'ınızın Grup Sesli Sohbeti'nde şarkı çalmak için Açık Kaynaklı bot. Powered by Mehmetbaba55.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/Mehmetbaba55/EfsaneMusic",
@@ -22,7 +22,25 @@
       "description": "Müzik Oynatıcı Bot Kullanıcı İsmi @ olmadan yazınız.",
       "required": true,
       "value": ""
-     
+     },
+    "SUPPORT_GROUP": {
+      "description": "Grup kullanıcı adı @ olmadan yazınız.",
+      "required": true
+      "value": ""
+    },
+    "ASSISTANT_NAME": {
+      "description": "Assistant kullanıcı adı @ olmadan yazınız.",
+      "required": true
+    },     
+    "UPDATES_CHANNEL": {
+      "description": "Kanal kullanıcı adı @ olmadan yazınız.",
+      "required": true
+      "value": ""
+    },
+        "OWNER_NAME": {
+            "description": "Kendi kullanıcı adınız @ olmadan yazınız",
+            "required": true
+            "value": ""
     },
     "API_ID": {
       "description": "my.telegram'dan uygulama kimliği.org/apps",
