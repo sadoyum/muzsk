@@ -24,7 +24,7 @@
       "value": ""
     },
     "ASSISTANT_NAME": {
-      "description": "Your MusicPlayer's assistant Username without @.",
+      "description": "Assistan kullanıcı adı @ olmadan yazınız.",
       "required": true
     },
     "OWNER_NAME": {
