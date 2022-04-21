@@ -1,7 +1,14 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
-from config import BOT_USERNAME, BOT_NAME, UPDATES_CHANNEL, SUPPORT_GROUP, ASSISTANT_NAME, OWNER_NAME as bot
+from config import (
+    BOT_NAME,
+    BOT_USERNAME,
+    SUPPORT_GROUP,
+    OWNER_NAME,
+    UPDATES_CHANNEL,
+    ASSISTANT_NAME, 
+)
 from helpers.filters import command, other_filters2
 # EfsaneMusicVaves tarafından düzenlendi. 
 
