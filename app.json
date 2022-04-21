@@ -37,10 +37,10 @@
       "required": true
       "value": ""
     },
-        "OWNER_NAME": {
-            "description": "Kendi kullanıcı adınız @ olmadan yazınız",
-            "required": true
-            "value": ""
+    "OWNER_NAME": {
+       "description": "Kendi kullanıcı adınız @ olmadan yazınız",
+       "required": true
+        "value": ""
     },
     "API_ID": {
       "description": "my.telegram'dan uygulama kimliği.org/apps",
