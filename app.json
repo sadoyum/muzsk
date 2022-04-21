@@ -16,12 +16,10 @@
     "BOT_NAME": {
       "description": "Müzik Oynatıcı Bot Adınız.",
       "required": false
-      "value": ""
     },
     "BOT_USARNAME": {
       "description": "Müzik Oynatıcı Bot Kullanıcı İsmi @ olmadan yazınız.",
       "required": true
-      "value": ""
     },
     "ASSISTANT_NAME": {
       "description": "Assistan kullanıcı adı @ olmadan yazınız.",
@@ -30,7 +28,6 @@
     "OWNER_NAME": {
      "description": "Kendi kullanıcı adınız @ olmadan yazınız",
      "required": true
-     "value": ""
     },
     "API_ID": {
       "description": "my.telegram'dan uygulama kimliği.org/apps",
@@ -52,12 +49,10 @@
     "UPDATES_CHANNEL": {
       "description": "Kanal kullanıcı adı @ olmadan yazınız.",
       "required": true
-      "value": ""
     },
     "SUPPORT_GROUP": {
       "description": "Grup kullanıcı adı @ olmadan yazınız.",
       "required": true
-      "value": ""
     }
   }
 }
