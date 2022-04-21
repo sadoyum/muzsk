@@ -2,45 +2,15 @@
 
 ### Güncellendi aktif.... 😇
 <p align="center">
-  <img src="https://telegra.ph/file/a4fa687ed647cfef52402.jpg">
+  <img src="https://telegra.ph//file/b4d3d010980450a4d8352.mp4">
 </p> 
 
 <h3>Sürümler 📮</h3>
 
 - pyrogram version 0.8.5
 
-<h3>Yeni Eklenen 💡</h3>
-
-- Bazı omutların açıklamasını otomatik silme. 
-- atla - durdur - devam 🤔
-### Komutlar Genel 🍭
-- `/play` - şarkı çalmak için youtube url'sine veya şarkı dosyasına yanıt verme
-- `/play` - istediğiniz şarkıyı çal
-- `/bul` - istediğiniz şarkıları hızlı bir şekilde indirin 
-- `/ara` - youtube'da ayrıntıları içeren videoları arama
-
-#### Yalnızca yöneticiler 
-- `/ver` - üyeler için extra yetki 
-- `/al` - üyeler için verilen yetki alınır (Herkes için olan komutları kullanır) 
-- `/pause` - şarkı çalmayı duraklatma 
-- `/resume` - şarkı çalmaya devam et 
-- `/skip` - sonraki şarkıyı çal 
-- `/end` - müzik çalmayı durdurma
-- `/reload` - Yönetici listesini günceller
-#### Grubunuza Almak için.. 
-- `/asistan` - Müzik asistanı  grubunuza katılır. 
-- `/ayril` - Müzik asistanı grubunuzu terk eder. 
 
 <h4>🔺 Herokuya Dağıt 🔻</h4>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Gecekus/muzsk)
 
-<h4> Railway ile Kurulum Yap </h4>
-
-- Site url
-
-➡️ https://railway.app/  
-
-#### [SESSION ALMAK İÇİN TIKLA](https://t.me/Sitringsison_bot)
----------------------- 
-- 18 Şubat  Aktif Halen çalışıyor. Mükemmel ses.. Akışı.... 
