@@ -16,7 +16,7 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://telegra.ph//file/b4d3d010980450a4d8352.mp4",
-                caption=(f"""**Merhaba {message.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.**"""),
+                caption=(f"""**Merhaba {message.from_user.mention} 🎵\nBen {BOT_NAME}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
