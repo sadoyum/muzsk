@@ -23,24 +23,14 @@
       "required": true,
       "value": ""
     },
+    "ASSISTANT_NAME": {
+      "description": "Your MusicPlayer's assistant Username without @.",
+      "required": true
+    },
     "OWNER_NAME": {
       "description": "Kendi kullanıcı adınız @ olmadan yazınız",
       "required": true
        "value": ""
-    },
-    "SUPPORT_GROUP": {
-      "description": "Grup kullanıcı adı @ olmadan yazınız.",
-      "required": true
-      "value": ""
-    },     
-    "UPDATES_CHANNEL": {
-      "description": "Kanal kullanıcı adı @ olmadan yazınız.",
-      "required": true
-      "value": ""
-    },
-    "ASSISTANT_NAME": {
-      "description": "Your MusicPlayer's assistant Username without @.",
-      "required": true
     },
     "API_ID": {
       "description": "my.telegram'dan uygulama kimliği.org/apps",
@@ -58,6 +48,16 @@
       "description": "İndirmeler için en fazla ses süresi sınırı (minutes).",
       "required": true,
       "value": "55"
+    },     
+    "UPDATES_CHANNEL": {
+      "description": "Kanal kullanıcı adı @ olmadan yazınız.",
+      "required": true
+      "value": ""
+    },
+    "SUPPORT_GROUP": {
+      "description": "Grup kullanıcı adı @ olmadan yazınız.",
+      "required": true
+      "value": ""
     }
   }
 }
