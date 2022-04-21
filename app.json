@@ -22,20 +22,10 @@
       "description": "Müzik Oynatıcı Bot Kullanıcı İsmi @ olmadan yazınız.",
       "required": true,
       "value": ""
-     },
-    "SUPPORT_GROUP": {
-      "description": "Grup kullanıcı adı @ olmadan yazınız.",
-      "required": true
-      "value": ""
     },
     "ASSISTANT_NAME": {
-      "description": "Assistant kullanıcı adı @ olmadan yazınız.",
+      "description": "Your MusicPlayer's assistant Username without @.",
       "required": true
-    },     
-    "UPDATES_CHANNEL": {
-      "description": "Kanal kullanıcı adı @ olmadan yazınız.",
-      "required": true
-      "value": ""
     },
     "OWNER_NAME": {
        "description": "Kendi kullanıcı adınız @ olmadan yazınız",
@@ -58,6 +48,16 @@
       "description": "İndirmeler için en fazla ses süresi sınırı (minutes).",
       "required": true,
       "value": "55"
+    },     
+    "UPDATES_CHANNEL": {
+      "description": "Kanal kullanıcı adı @ olmadan yazınız.",
+      "required": true
+      "value": ""
+    },
+    "SUPPORT_GROUP": {
+      "description": "Grup kullanıcı adı @ olmadan yazınız.",
+      "required": true
+      "value": ""
     }
   }
 }
