@@ -15,7 +15,7 @@
     },
     "BOT_NAME": {
       "description": "Müzik Oynatıcı Bot Adınız.",
-      "required": false,
+      "required": false
       "value": ""
     },
     "BOT_USARNAME": {
