@@ -13,18 +13,13 @@
       "description": "Bir bot belirteci @botfather ile alınız",
       "required": true
     },
-    "BOT_USARNAME": {
-      "description": "Müzik Oynatıcı Bot Kullanıcı İsmi @ olmadan yazınız.",
-      "required": true
-      "value": ""
-    },
     "BOT_NAME": {
       "description": "Müzik Oynatıcı Bot Adınız.",
       "required": false
       "value": ""
     },
-    "SUPPORT_GROUP": {
-      "description": "Grup kullanıcı adı @ olmadan yazınız.",
+    "BOT_USARNAME": {
+      "description": "Müzik Oynatıcı Bot Kullanıcı İsmi @ olmadan yazınız.",
       "required": true
       "value": ""
     },
@@ -36,11 +31,6 @@
      "description": "Kendi kullanıcı adınız @ olmadan yazınız",
      "required": true
      "value": ""
-    },     
-    "UPDATES_CHANNEL": {
-      "description": "Kanal kullanıcı adı @ olmadan yazınız.",
-      "required": true
-      "value": ""
     },
     "API_ID": {
       "description": "my.telegram'dan uygulama kimliği.org/apps",
@@ -58,6 +48,16 @@
       "description": "İndirmeler için en fazla ses süresi sınırı (minutes).",
       "required": true,
       "value": "55"
+    },     
+    "UPDATES_CHANNEL": {
+      "description": "Kanal kullanıcı adı @ olmadan yazınız.",
+      "required": true
+      "value": ""
+    },
+    "SUPPORT_GROUP": {
+      "description": "Grup kullanıcı adı @ olmadan yazınız.",
+      "required": true
+      "value": ""
     }
   }
 }
