@@ -22,15 +22,15 @@ async def start(_, message: Message):
                 [
                     InlineKeyboardButton(
                         "➕ ❰ Grubuna Ekle ❱ ➕", 
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        url=f"https://t.me/{Makarnacumhuriyeti}?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url=f"https://t.me/{ASSISTANT_NAME}"
+                        "🔊 Asistan", url=f"https://t.me/{Makarnacumhuriyeti}"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "💬 Sohbet", url=f"https://t.me/{Makarnacumhuriyeti}"
                     )
                 ],
                 [
@@ -38,7 +38,7 @@ async def start(_, message: Message):
                         "🧩 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/{Makarnacumhuriyeti}"
                     )
                 ]
                 
@@ -48,7 +48,7 @@ async def start(_, message: Message):
   
 
 
-@Client.on_message(command(["bilgi", f"bilgi@{BOT_USERNAME}"]))
+@Client.on_message(command(["bilgi", f"bilgi@{LeaderhurkoIe}"]))
 async def bilgi(_, message: Message):
       await message.reply_text(" ❗ Not:\n Botun aktif çalışması için şu üç yetkiye ihtiyaç vardır:\n- Mesaj silme yetkisi,\n- Bağlantı ile davet etme yetkisi,\n- Sesli sohbeti yönetme yetkisi.", 
       reply_markup=InlineKeyboardMarkup(
@@ -64,7 +64,7 @@ async def bilgi(_, message: Message):
                          "Ana menü🏠", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url=f"https://t.me/{OWNER_NAME}")
+                         "⚙ Geliştirici", url=f"https://t.me/{LeaderhurkoIe}")
                  ]
              ]
          )
@@ -90,7 +90,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "⚙ Geliştirici", url=f"https://t.me/{OWNER_NAME}")
+            "⚙ Geliştirici", url=f"https://t.me/{LeaderhurkoIe}")
         ]
       ]
      ))
@@ -103,7 +103,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url=f"https://t.me/{OWNER_NAME}")
+                         "⚙ Geliştirici", url=f"https://t.me{LeaderhurkoIe}")
                  ],
                  [
                      InlineKeyboardButton(
@@ -121,7 +121,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url=f"https://t.me/{OWNER_NAME}")
+                         "⚙ Geliştirici", url=f"https://t.me/{LeaderhurkoIe}")
                  ],
                  [
                      InlineKeyboardButton(
@@ -140,15 +140,15 @@ async def cbstart(_, query: CallbackQuery):
                 [
                     InlineKeyboardButton(
                         "➕ ❰ Grubuna Ekle ❱ ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        url=f"https://t.me/{LeaderhurkoIe}?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url=f"https://t.me/{ASSISTANT_NAME}"
+                        "🔊 Asistan", url=f"https://t.me{LeaderhurkoIe}"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "💬 Sohbet", url=f"https://t.me/{LeaderhurkoIe}"
                     )
                 ],
                 [
@@ -156,7 +156,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🌀 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/{@LeaderhurkoIe}"
                     )
                 ]
                 
