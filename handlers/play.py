@@ -152,7 +152,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph//file/bea6786317c0d11486e1d.jpg"
+        thumb_name = "https://te.legra.ph/file/9491ae179899eae7556b1.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Yerel olarak eklendi"
